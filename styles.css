@@ -1,0 +1,108 @@
+body {
+    font-family: Helvetica, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgb(66, 112, 199);
+    padding: 8px 16px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 12px;
+}
+
+.header, .one, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header, .footer {
+    display: flex;
+    padding: 12px 0;
+    align-items: center;
+    flex: auto;
+}
+
+.footer {
+    justify-content: center;
+    padding: 16px;
+}
+
+.header-links {
+    display: flex;
+    gap: 8px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    flex: 1;
+}
+
+.section {
+    display: flex;
+    flex: 1 1 auto;
+    height: 400px;
+    gap: 40px;
+}
+
+.one, .four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title, .hero-image {
+    width:33%;
+}
+
+.hero-image {
+    height: 250px;
+    width: auto;
+}
+
+.two {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+}
+
+.icon {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-image {
+    width: 200px;
+    height: auto;
+}
+
+.three {
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.rounded-box {
+    background-color: rgb(66, 112, 199);
+    width: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+    border-radius: 25px;
+}
